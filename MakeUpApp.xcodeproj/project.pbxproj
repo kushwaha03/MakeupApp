@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89D475EA248505D500E3FA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D475E9248505D500E3FA3B /* AppDelegate.swift */; };
+		89D475EE248505D500E3FA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D475ED248505D500E3FA3B /* ViewController.swift */; };
+		89D475F1248505D500E3FA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D475EF248505D500E3FA3B /* Main.storyboard */; };
+		89D475F4248505D500E3FA3B /* MakeUpApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89D475F2248505D500E3FA3B /* MakeUpApp.xcdatamodeld */; };
+		89D475F6248505D700E3FA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D475F5248505D700E3FA3B /* Assets.xcassets */; };
+		89D475F9248505D700E3FA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D475F7248505D700E3FA3B /* LaunchScreen.storyboard */; };
+		89D47604248505D700E3FA3B /* MakeUpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D47603248505D700E3FA3B /* MakeUpAppTests.swift */; };
+		89D4760F248505D700E3FA3B /* MakeUpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4760E248505D700E3FA3B /* MakeUpAppUITests.swift */; };
+		89D4761D24850AF300E3FA3B /* ColorLipstickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4761C24850AF300E3FA3B /* ColorLipstickTableViewController.swift */; };
+		89D4761F24850B3A00E3FA3B /* Lipstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4761E24850B3A00E3FA3B /* Lipstick.swift */; };
+		89D4762124850BA400E3FA3B /* lipstick.json in Resources */ = {isa = PBXBuildFile; fileRef = 89D4762024850BA400E3FA3B /* lipstick.json */; };
+		89D4762324850DFE00E3FA3B /* NonARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4762224850DFE00E3FA3B /* NonARKitViewController.swift */; };
+		BC1F58097CCA264F0FDAB5C1 /* libPods-MakeUpApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAF347801E00D0DB0F25734 /* libPods-MakeUpApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89D47600248505D700E3FA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89D475DE248505D500E3FA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D475E5248505D500E3FA3B;
+			remoteInfo = MakeUpApp;
+		};
+		89D4760B248505D700E3FA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89D475DE248505D500E3FA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D475E5248505D500E3FA3B;
+			remoteInfo = MakeUpApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FAF347801E00D0DB0F25734 /* libPods-MakeUpApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MakeUpApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D475E6248505D500E3FA3B /* MakeUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D475E9248505D500E3FA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89D475ED248505D500E3FA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89D475F0248505D500E3FA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89D475F3248505D500E3FA3B /* MakeUpApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MakeUpApp.xcdatamodel; sourceTree = "<group>"; };
+		89D475F5248505D700E3FA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89D475F8248505D700E3FA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89D475FA248505D700E3FA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D475FF248505D700E3FA3B /* MakeUpAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeUpAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D47603248505D700E3FA3B /* MakeUpAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpAppTests.swift; sourceTree = "<group>"; };
+		89D47605248505D700E3FA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D4760A248505D700E3FA3B /* MakeUpAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeUpAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D4760E248505D700E3FA3B /* MakeUpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpAppUITests.swift; sourceTree = "<group>"; };
+		89D47610248505D700E3FA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D4761C24850AF300E3FA3B /* ColorLipstickTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLipstickTableViewController.swift; sourceTree = "<group>"; };
+		89D4761E24850B3A00E3FA3B /* Lipstick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lipstick.swift; sourceTree = "<group>"; };
+		89D4762024850BA400E3FA3B /* lipstick.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lipstick.json; sourceTree = "<group>"; };
+		89D4762224850DFE00E3FA3B /* NonARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonARKitViewController.swift; sourceTree = "<group>"; };
+		992A46DDCA6304EB205DAFF6 /* Pods-MakeUpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpApp.debug.xcconfig"; path = "Target Support Files/Pods-MakeUpApp/Pods-MakeUpApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA2F3A551C2C1EC38CA7192 /* Pods-MakeUpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpApp.release.xcconfig"; path = "Target Support Files/Pods-MakeUpApp/Pods-MakeUpApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89D475E3248505D500E3FA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1F58097CCA264F0FDAB5C1 /* libPods-MakeUpApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D475FC248505D700E3FA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D47607248505D700E3FA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89D475DD248505D500E3FA3B = {
+			isa = PBXGroup;
+			children = (
+				89D475E8248505D500E3FA3B /* MakeUpApp */,
+				89D47602248505D700E3FA3B /* MakeUpAppTests */,
+				89D4760D248505D700E3FA3B /* MakeUpAppUITests */,
+				89D475E7248505D500E3FA3B /* Products */,
+				C86ED0C970D1BF1AE86DA426 /* Pods */,
+				DB920F983D291A19F1F7889C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89D475E7248505D500E3FA3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89D475E6248505D500E3FA3B /* MakeUpApp.app */,
+				89D475FF248505D700E3FA3B /* MakeUpAppTests.xctest */,
+				89D4760A248505D700E3FA3B /* MakeUpAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89D475E8248505D500E3FA3B /* MakeUpApp */ = {
+			isa = PBXGroup;
+			children = (
+				89D475E9248505D500E3FA3B /* AppDelegate.swift */,
+				89D475ED248505D500E3FA3B /* ViewController.swift */,
+				89D4761C24850AF300E3FA3B /* ColorLipstickTableViewController.swift */,
+				89D4761E24850B3A00E3FA3B /* Lipstick.swift */,
+				89D4762024850BA400E3FA3B /* lipstick.json */,
+				89D475EF248505D500E3FA3B /* Main.storyboard */,
+				89D4762224850DFE00E3FA3B /* NonARKitViewController.swift */,
+				89D475F5248505D700E3FA3B /* Assets.xcassets */,
+				89D475F7248505D700E3FA3B /* LaunchScreen.storyboard */,
+				89D475FA248505D700E3FA3B /* Info.plist */,
+				89D475F2248505D500E3FA3B /* MakeUpApp.xcdatamodeld */,
+			);
+			path = MakeUpApp;
+			sourceTree = "<group>";
+		};
+		89D47602248505D700E3FA3B /* MakeUpAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				89D47603248505D700E3FA3B /* MakeUpAppTests.swift */,
+				89D47605248505D700E3FA3B /* Info.plist */,
+			);
+			path = MakeUpAppTests;
+			sourceTree = "<group>";
+		};
+		89D4760D248505D700E3FA3B /* MakeUpAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89D4760E248505D700E3FA3B /* MakeUpAppUITests.swift */,
+				89D47610248505D700E3FA3B /* Info.plist */,
+			);
+			path = MakeUpAppUITests;
+			sourceTree = "<group>";
+		};
+		C86ED0C970D1BF1AE86DA426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				992A46DDCA6304EB205DAFF6 /* Pods-MakeUpApp.debug.xcconfig */,
+				BBA2F3A551C2C1EC38CA7192 /* Pods-MakeUpApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB920F983D291A19F1F7889C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FAF347801E00D0DB0F25734 /* libPods-MakeUpApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89D475E5248505D500E3FA3B /* MakeUpApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D47613248505D700E3FA3B /* Build configuration list for PBXNativeTarget "MakeUpApp" */;
+			buildPhases = (
+				ACB8FE5106D6B7BB4AFD73FF /* [CP] Check Pods Manifest.lock */,
+				89D475E2248505D500E3FA3B /* Sources */,
+				89D475E3248505D500E3FA3B /* Frameworks */,
+				89D475E4248505D500E3FA3B /* Resources */,
+				70C090C6CDC6F6A169058359 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeUpApp;
+			productName = MakeUpApp;
+			productReference = 89D475E6248505D500E3FA3B /* MakeUpApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89D475FE248505D700E3FA3B /* MakeUpAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D47616248505D700E3FA3B /* Build configuration list for PBXNativeTarget "MakeUpAppTests" */;
+			buildPhases = (
+				89D475FB248505D700E3FA3B /* Sources */,
+				89D475FC248505D700E3FA3B /* Frameworks */,
+				89D475FD248505D700E3FA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89D47601248505D700E3FA3B /* PBXTargetDependency */,
+			);
+			name = MakeUpAppTests;
+			productName = MakeUpAppTests;
+			productReference = 89D475FF248505D700E3FA3B /* MakeUpAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89D47609248505D700E3FA3B /* MakeUpAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D47619248505D700E3FA3B /* Build configuration list for PBXNativeTarget "MakeUpAppUITests" */;
+			buildPhases = (
+				89D47606248505D700E3FA3B /* Sources */,
+				89D47607248505D700E3FA3B /* Frameworks */,
+				89D47608248505D700E3FA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89D4760C248505D700E3FA3B /* PBXTargetDependency */,
+			);
+			name = MakeUpAppUITests;
+			productName = MakeUpAppUITests;
+			productReference = 89D4760A248505D700E3FA3B /* MakeUpAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89D475DE248505D500E3FA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "kashee kushwaha";
+				TargetAttributes = {
+					89D475E5248505D500E3FA3B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					89D475FE248505D700E3FA3B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 89D475E5248505D500E3FA3B;
+					};
+					89D47609248505D700E3FA3B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 89D475E5248505D500E3FA3B;
+					};
+				};
+			};
+			buildConfigurationList = 89D475E1248505D500E3FA3B /* Build configuration list for PBXProject "MakeUpApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89D475DD248505D500E3FA3B;
+			productRefGroup = 89D475E7248505D500E3FA3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89D475E5248505D500E3FA3B /* MakeUpApp */,
+				89D475FE248505D700E3FA3B /* MakeUpAppTests */,
+				89D47609248505D700E3FA3B /* MakeUpAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89D475E4248505D500E3FA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D4762124850BA400E3FA3B /* lipstick.json in Resources */,
+				89D475F9248505D700E3FA3B /* LaunchScreen.storyboard in Resources */,
+				89D475F6248505D700E3FA3B /* Assets.xcassets in Resources */,
+				89D475F1248505D500E3FA3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D475FD248505D700E3FA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D47608248505D700E3FA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70C090C6CDC6F6A169058359 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MakeUpApp/Pods-MakeUpApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MakeUpApp/Pods-MakeUpApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MakeUpApp/Pods-MakeUpApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB8FE5106D6B7BB4AFD73FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakeUpApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89D475E2248505D500E3FA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D475EE248505D500E3FA3B /* ViewController.swift in Sources */,
+				89D475EA248505D500E3FA3B /* AppDelegate.swift in Sources */,
+				89D475F4248505D500E3FA3B /* MakeUpApp.xcdatamodeld in Sources */,
+				89D4762324850DFE00E3FA3B /* NonARKitViewController.swift in Sources */,
+				89D4761D24850AF300E3FA3B /* ColorLipstickTableViewController.swift in Sources */,
+				89D4761F24850B3A00E3FA3B /* Lipstick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D475FB248505D700E3FA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D47604248505D700E3FA3B /* MakeUpAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D47606248505D700E3FA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D4760F248505D700E3FA3B /* MakeUpAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89D47601248505D700E3FA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89D475E5248505D500E3FA3B /* MakeUpApp */;
+			targetProxy = 89D47600248505D700E3FA3B /* PBXContainerItemProxy */;
+		};
+		89D4760C248505D700E3FA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89D475E5248505D500E3FA3B /* MakeUpApp */;
+			targetProxy = 89D4760B248505D700E3FA3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89D475EF248505D500E3FA3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D475F0248505D500E3FA3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89D475F7248505D700E3FA3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89D475F8248505D700E3FA3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89D47611248505D700E3FA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89D47612248505D700E3FA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89D47614248505D700E3FA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992A46DDCA6304EB205DAFF6 /* Pods-MakeUpApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU8T677HC5;
+				INFOPLIST_FILE = MakeUpApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.MakeUpApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89D47615248505D700E3FA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA2F3A551C2C1EC38CA7192 /* Pods-MakeUpApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU8T677HC5;
+				INFOPLIST_FILE = MakeUpApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.MakeUpApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89D47617248505D700E3FA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeUpAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MakeUpAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeUpApp.app/MakeUpApp";
+			};
+			name = Debug;
+		};
+		89D47618248505D700E3FA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeUpAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MakeUpAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeUpApp.app/MakeUpApp";
+			};
+			name = Release;
+		};
+		89D4761A248505D700E3FA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeUpAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MakeUpAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakeUpApp;
+			};
+			name = Debug;
+		};
+		89D4761B248505D700E3FA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeUpAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MakeUpAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakeUpApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89D475E1248505D500E3FA3B /* Build configuration list for PBXProject "MakeUpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D47611248505D700E3FA3B /* Debug */,
+				89D47612248505D700E3FA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D47613248505D700E3FA3B /* Build configuration list for PBXNativeTarget "MakeUpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D47614248505D700E3FA3B /* Debug */,
+				89D47615248505D700E3FA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D47616248505D700E3FA3B /* Build configuration list for PBXNativeTarget "MakeUpAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D47617248505D700E3FA3B /* Debug */,
+				89D47618248505D700E3FA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D47619248505D700E3FA3B /* Build configuration list for PBXNativeTarget "MakeUpAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D4761A248505D700E3FA3B /* Debug */,
+				89D4761B248505D700E3FA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89D475F2248505D500E3FA3B /* MakeUpApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89D475F3248505D500E3FA3B /* MakeUpApp.xcdatamodel */,
+			);
+			currentVersion = 89D475F3248505D500E3FA3B /* MakeUpApp.xcdatamodel */;
+			path = MakeUpApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89D475DE248505D500E3FA3B /* Project object */;
+}
